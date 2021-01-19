@@ -86,7 +86,7 @@
     <ClCompile>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
@@ -148,6 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Final Exam.c" />
+    <ClCompile Include="StackUtil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="StackUtil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

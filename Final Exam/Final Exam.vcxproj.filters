@@ -18,5 +18,16 @@
     <ClCompile Include="Final Exam.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StackUtil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
